@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(18, 13, 13);
+    }
+    p::first-letter{
+        font-size: xx-large;
+        color:red;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    p.line::first-line{
+        color: rgb(23, 192, 23);
+    }
+   div{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    transition: hight 40s, width 40s;
+
+   }
+   div:hover{
+    width: 600px;
+    height: 600px;
+   }
+   .picr{
+    width: 200px;
+    height: 180px;
+    transition: hight 3s, width 3s, transform 3s 
+      }
+      .picr:hover{
+        width: 200px;
+        height: 200px;
+        transform: rotate(360deg);
+      }
+      @keyframes example{
+        0%     {background-color: blue;}
+        15%     {background-color: brown;}
+        30%      {background-color: aquamarine;}
+        45%      {background-color: fuchsia;}
+        60%     {background-color: yellow;}
+        75%     {background-color: sandybrown;}
+        90%      {background-color: mediumspringgreen;}
+        100%    {background-color: darkgoldenrod;}
+
+      }
+      h2{
+        font-size: 200px;
+        background-color: beige;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 3000000;
+        color: green;
+      }
+</style>
+<body>
+    <h2>Shaham Abbas</h2>
+    <h1>
+        What do you know About Shaham Abbas?
+    </h1>
+    
+    
+    <p>Shaham Abbas is studying in Software engeenring profession, interested in Programming and also have Basic knowledge of SEO . Born on 21-June-2003 in Hasilpur.Shaham has consistently shown a strong drive for Data entry operator , Virtual Assistant. Shaham actively engages in Cricket.I am proud to be a Muslim.
+    </p>
+    <p class="line">Shaham Abbas is studying in Software engeenring profession, interested in Programming and also have Basic knowledge of SEO . Born on 21-June-2003 in Hasilpur.Shaham has consistently shown a strong drive for Data entry operator , Virtual Assistant. Shaham actively engages in Cricket.I am proud to be a Muslim.
+    </p>
+    <h1>Transiton Properties </h1>
+    <div></div>
+    <h1>PIC</h1>
+    <div class="picr"><img src="Shaham.jpeg"></div>
+ 
+</body> 
+</html>
